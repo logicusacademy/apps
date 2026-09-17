@@ -1,0 +1,215 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="A bright, friendly study app for flashcards, study guides, practice tests, and teachers.">
+  <title>Studyly — Learn your way</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#" aria-label="Studyly home">
+        <span class="brand-mark">S</span><span>studyly</span>
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#features">Study tools</a>
+        <a href="#sets">Flashcard sets</a>
+        <a href="#teachers">For teachers</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="text-btn" type="button">Log in</button>
+        <button class="btn btn-primary btn-small" type="button" data-toast="Your free account flow starts here.">Sign up free</button>
+        <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="dot"></span> Learning that sticks</div>
+          <h1>How do you want<br><span>to study?</span></h1>
+          <p class="hero-lead">Master whatever you're learning with interactive flashcards, practice tests, study guides, and study activities—all in one place.</p>
+          <div class="hero-actions">
+            <button class="btn btn-primary btn-large" data-toast="Welcome! Let's create your free study space.">Sign up for free</button>
+            <button class="btn btn-ghost btn-large" data-toast="Teacher onboarding starts here.">I'm a teacher</button>
+          </div>
+          <p class="fine-print">Free to get started · No credit card required</p>
+        </div>
+
+        <div class="hero-visual" aria-label="Study dashboard preview">
+          <div class="float-card float-card-top"><span class="spark">✦</span> 87% mastered</div>
+          <div class="study-window">
+            <div class="window-top">
+              <div class="window-brand"><span class="mini-mark">S</span> studyly</div>
+              <div class="window-avatar"></div>
+            </div>
+            <div class="window-body">
+              <div class="mini-sidebar">
+                <span class="active"></span><span></span><span></span><span></span>
+              </div>
+              <div class="dashboard">
+                <div class="dash-greeting">Good morning, Alex 👋</div>
+                <div class="dash-title">What are you studying today?</div>
+                <div class="progress-row">
+                  <div><strong>Biology · Cell Structure</strong><small>12 of 20 terms</small></div>
+                  <div class="progress"><i style="width:62%"></i></div>
+                </div>
+                <div class="preview-card">
+                  <small>FLASHCARD</small>
+                  <strong>Mitochondria</strong>
+                  <p>What is the primary function?</p>
+                  <div class="card-chip">Tap to reveal</div>
+                </div>
+                <div class="dash-tools">
+                  <span>Learn</span><span>Flashcards</span><span>Test</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="float-card float-card-bottom"><span class="check">✓</span> Keep your streak going!</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="tool-strip" id="features">
+      <div class="container">
+        <div class="section-kicker">YOUR WAY TO LEARN</div>
+        <div class="tool-grid">
+          <article class="tool-card blue">
+            <div class="tool-icon">✦</div><h3>Learn</h3><p>Practice at the right level and build mastery step by step.</p><a href="#">Explore Learn →</a>
+          </article>
+          <article class="tool-card lilac">
+            <div class="tool-icon">▤</div><h3>Study Guides</h3><p>Turn your notes into clear, organized study material.</p><a href="#">Make a guide →</a>
+          </article>
+          <article class="tool-card mint">
+            <div class="tool-icon">▱</div><h3>Flashcards</h3><p>Create, discover, and review cards whenever you need them.</p><a href="#">Browse cards →</a>
+          </article>
+          <article class="tool-card peach">
+            <div class="tool-icon">✓</div><h3>Practice Tests</h3><p>Check your knowledge with focused test-style practice.</p><a href="#">Try a test →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="container feature-grid">
+        <div class="feature-copy">
+          <div class="section-kicker">CREATE</div>
+          <h2>Make flashcards that fit <span>the way you learn.</span></h2>
+          <p>Build a set in minutes, add images or examples, and study it from any device. Or start with a set made by a teacher, classmate, or another learner.</p>
+          <a class="arrow-link" href="#">Create your first set <span>→</span></a>
+        </div>
+        <div class="product-preview flash-preview">
+          <div class="preview-toolbar"><span>Biology · Cell Structure</span><span>⋯</span></div>
+          <div class="flash-stage">
+            <div class="flash-card back-card"></div>
+            <div class="flash-card main-card">
+              <small>TERM</small><strong>Osmosis</strong>
+              <p>The movement of water across a selectively permeable membrane.</p>
+              <div class="card-footer"><span>☆ Star</span><span>1 / 24</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section alt">
+      <div class="container feature-grid reverse-mobile">
+        <div class="product-preview notes-preview">
+          <div class="notes-top"><span class="pill">STUDY GUIDE</span><span>AI-assisted</span></div>
+          <h3>World History — Industrial Revolution</h3>
+          <div class="note-lines"><i></i><i></i><i class="short"></i></div>
+          <div class="generated-row"><span class="generated-icon">✦</span><div><strong>Key concepts</strong><small>12 concepts · 8 flashcards · 10 questions</small></div><span>›</span></div>
+          <div class="generated-row"><span class="generated-icon">?</span><div><strong>Practice questions</strong><small>Ready when you are</small></div><span>›</span></div>
+        </div>
+        <div class="feature-copy">
+          <div class="section-kicker">TURN NOTES INTO TOOLS</div>
+          <h2>From messy notes to <span>ready-to-study.</span></h2>
+          <p>Paste your notes, slides, or class material and turn them into structured study resources. Spend less time organizing and more time learning.</p>
+          <a class="arrow-link" href="#">See how it works <span>→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-section">
+      <div class="container feature-grid">
+        <div class="feature-copy">
+          <div class="section-kicker">PRACTICE</div>
+          <h2>Prepare for tests with <span>practice that adapts.</span></h2>
+          <p>Mix recall, multiple-choice, and written questions to find what you know—and the topics that deserve another look.</p>
+          <a class="arrow-link" href="#">Start practicing <span>→</span></a>
+        </div>
+        <div class="product-preview test-preview">
+          <div class="test-header"><span>Practice Test</span><strong>Question 7 of 20</strong></div>
+          <div class="question">Which organelle is primarily responsible for producing ATP?</div>
+          <div class="answers"><button>A. Ribosome</button><button>B. Mitochondrion</button><button>C. Nucleus</button><button>D. Golgi apparatus</button></div>
+          <div class="test-progress"><i></i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="teacher-section" id="teachers">
+      <div class="container teacher-grid">
+        <div class="teacher-copy">
+          <div class="section-kicker light">FOR TEACHERS</div>
+          <h2>Help every student learn with confidence.</h2>
+          <p>Create engaging study material, assign practice, and give students more ways to review—without adding more work to your day.</p>
+          <div class="teacher-actions"><button class="btn btn-white btn-large" data-toast="Teacher sign-up flow starts here.">Sign up as a teacher</button><a href="#">See how it works →</a></div>
+        </div>
+        <div class="teacher-visual">
+          <div class="teacher-window">
+            <div class="teacher-head"><strong>Class dashboard</strong><span>Grade 10 · Biology</span></div>
+            <div class="class-stat"><strong>32</strong><span>students active</span><b>↑ 18%</b></div>
+            <div class="student-bars"><i style="height:55%"></i><i style="height:75%"></i><i style="height:48%"></i><i style="height:88%"></i><i style="height:66%"></i><i style="height:94%"></i><i style="height:72%"></i></div>
+            <div class="teacher-list"><span>Cell Structure Review</span><b>94%</b><span>Photosynthesis Practice</span><b>87%</b></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sets-section" id="sets">
+      <div class="container">
+        <div class="sets-heading">
+          <div><div class="section-kicker">EXPLORE</div><h2>Popular flashcard sets</h2></div>
+          <a class="arrow-link" href="#">Browse all sets <span>→</span></a>
+        </div>
+        <div class="sets-grid">
+          <article class="set-card"><div class="set-color c1"></div><div class="set-body"><small>SCIENCE</small><h3>Biology: Cell Structure</h3><p>42 terms</p><div class="creator"><span>JM</span> Jordan M. · 2 days ago</div></div></article>
+          <article class="set-card"><div class="set-color c2"></div><div class="set-body"><small>LANGUAGES</small><h3>Spanish Essentials</h3><p>120 terms</p><div class="creator"><span>LA</span> Lucia A. · 1 week ago</div></div></article>
+          <article class="set-card"><div class="set-color c3"></div><div class="set-body"><small>CHEMISTRY</small><h3>Organic Chemistry Reactions</h3><p>86 terms</p><div class="creator"><span>RK</span> Ryan K. · 3 days ago</div></div></article>
+          <article class="set-card"><div class="set-color c4"></div><div class="set-body"><small>HISTORY</small><h3>World War II Timeline</h3><p>64 terms</p><div class="creator"><span>NS</span> Nina S. · 5 days ago</div></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="final-cta">
+      <div class="container">
+        <div class="cta-spark">✦</div>
+        <h2>Ready to make studying<br><span>feel a little easier?</span></h2>
+        <p>Start free. Find your rhythm. Keep learning.</p>
+        <button class="btn btn-primary btn-large" data-toast="Let's get your study space ready.">Sign up for free</button>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand" href="#"><span class="brand-mark">S</span><span>studyly</span></a><p>Study smarter, one small win at a time.</p></div>
+      <div><strong>Product</strong><a href="#features">Study tools</a><a href="#sets">Flashcard sets</a><a href="#">Practice tests</a></div>
+      <div><strong>For teachers</strong><a href="#teachers">Teacher tools</a><a href="#">Resources</a><a href="#">Help center</a></div>
+      <div><strong>Company</strong><a href="#">About</a><a href="#">Contact</a><a href="#">Privacy</a></div>
+    </div>
+    <div class="container footer-bottom">© 2026 Studyly. A demo study-app homepage.</div>
+  </footer>
+
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
