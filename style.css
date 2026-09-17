@@ -1,5 +1,5 @@
 :root{
-  --blue:#4255ff; --blue-dark:#3344df; --ink:#182230; --muted:#5f6b7a; --bg:#f8f9ff;
+  --blue:#0E2A47; --blue-dark:#081B2E; --orange:#F59A23; --orange-dark:#E48600; --ink:#182230; --muted:#5f6b7a; --bg:#f8f9ff;
   --line:#e5e8f0; --white:#fff; --radius:28px; --shadow:0 24px 70px rgba(37,52,100,.12);
 }
 *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;font-family:"Nunito",system-ui,sans-serif;color:var(--ink);background:var(--white);line-height:1.55}
@@ -33,3 +33,6 @@ footer{background:#fff;border-top:1px solid var(--line);padding:60px 0 25px}.foo
 @media(max-width:600px){
   .container{width:min(100% - 28px,1160px)}.nav{height:68px}.nav-actions .text-btn{display:none}.nav-actions{gap:8px}.btn-small{padding:9px 13px}.hero{padding:55px 0 65px}.hero-grid{gap:25px}h1{font-size:50px;letter-spacing:-2.5px}.hero-lead{font-size:16px}.hero-visual{min-height:370px}.study-window{transform:none}.window-body{min-height:310px}.dashboard{padding:20px}.mini-sidebar{width:46px}.preview-card{min-height:145px}.float-card{font-size:10px}.float-card-top{right:-2px}.float-card-bottom{left:-2px}.tool-strip{padding:65px 0}.tool-grid,.sets-grid{grid-template-columns:1fr}.tool-card{min-height:190px}.tool-icon{margin-bottom:25px}.feature-section{padding:70px 0}.feature-grid{gap:35px}.feature-copy h2{font-size:38px}.product-preview{min-height:360px}.flash-card{width:80%;height:215px}.answers{grid-template-columns:1fr}.teacher-section{padding:75px 0}.teacher-grid{gap:35px}.teacher-actions{align-items:flex-start;flex-direction:column}.sets-heading{align-items:flex-start;flex-direction:column;gap:18px}.sets-heading h2{font-size:35px}.footer-grid{grid-template-columns:1fr 1fr;gap:30px}.footer-grid>div:first-child{grid-column:1/-1}
 }
+
+/* Logicus Academy brand overrides */
+h1 span,h2 span{color:var(--orange)} .brand-mark,.mini-mark{background:var(--orange)} .btn-primary{background:var(--blue)} .btn-primary:hover{background:var(--blue-dark)} .progress i{background:var(--orange)} .spark{color:var(--orange)} .teacher-section{background:var(--blue)} .cta-spark{color:var(--orange)} .eyebrow,.section-kicker,.arrow-link,.tool-card a{color:var(--blue)}
